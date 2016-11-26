@@ -1,0 +1,21 @@
+[submodule "customer-service"]
+	path = customer-service
+	url = https://github.com/making-demo-scst/customer-service.git
+[submodule "post-service"]
+	path = post-service
+	url = https://github.com/making-demo-scst/post-service.git
+[submodule "point-service"]
+	path = point-service
+	url = https://github.com/making-demo-scst/point-service.git
+[submodule "email-service"]
+	path = email-service
+	url = https://github.com/making-demo-scst/email-service.git
+[submodule "ec-web"]
+	path = ec-web
+	url = https://github.com/making-demo-scst/ec-web.git
+[submodule "zipkin-server"]
+	path = zipkin-server
+	url = https://github.com/making-demo-scst/zipkin-server.git
+[submodule "dlq-recover-service"]
+	path = dlq-recover-service
+	url = https://github.com/making-demo-scst/dlq-recover-service.git
