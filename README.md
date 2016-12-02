@@ -8,6 +8,26 @@
 
 ## Deploy to PCF Dev
 
+### Start PCF Dev
+
+First of all, we need to downloa PCF Dev from [Pivotal Network](https://network.pivotal.io/products/pcfdev) and install it. It's pretty easy. Please refer the following doc.
+
+* [OSX](https://docs.pivotal.io/pcf-dev/install-osx.html#install-pcf-dev)
+* [Linux](https://docs.pivotal.io/pcf-dev/install-linux.html#install-pcf-dev)
+* [Windows](https://docs.pivotal.io/pcf-dev/install-windows.html#install-pcf-dev)
+
+After installing, let's start PCF Dev. I would recommend to use 8GB memory for PCFDev.
+
+```
+cf dev start -m 8192
+```
+
+After around 10~15 minutes, PCF Dev will be ready and you can login with:
+
+```
+cf login -a https://api.local.pcfdev.io --skip-ssl-validation -u admin -p admin -o pcfdev-org
+```
+
 ### Create services
 
 ```
