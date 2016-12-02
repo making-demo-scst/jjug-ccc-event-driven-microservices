@@ -6,6 +6,16 @@
 * `npm`
 * `cf` cli
 
+## Install npm modules for UI
+
+```
+cd ec-web/ec-web-ui
+npm install
+cd ../..
+cd dlq-recover-service/dlq-recover-service-ui
+npm install
+```
+
 ## Deploy to PCF Dev
 
 ### Start PCF Dev
