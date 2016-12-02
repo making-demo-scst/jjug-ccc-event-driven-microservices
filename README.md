@@ -14,6 +14,7 @@ npm install
 cd ../..
 cd dlq-recover-service/dlq-recover-ui
 npm install
+cd ../..
 ```
 
 ## Deploy to PCF Dev
