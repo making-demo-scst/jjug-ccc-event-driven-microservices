@@ -12,7 +12,7 @@
 cd ec-web/ec-web-ui
 npm install
 cd ../..
-cd dlq-recover-service/dlq-recover-service-ui
+cd dlq-recover-service/dlq-recover-ui
 npm install
 ```
 
