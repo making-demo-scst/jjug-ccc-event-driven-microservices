@@ -1,5 +1,11 @@
 # jjug-ccc-event-driven-microservices
 
+## Prerequisite
+
+* JDK8 (`JAVA_HOME` must be set)
+* `npm`
+* `cf` cli
+
 ## Deploy to PCF Dev
 
 ### Create services
